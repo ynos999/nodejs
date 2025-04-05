@@ -9,6 +9,8 @@
 ### docker build -t show-ip-node:0.2 .
 ### docker run -p 3000:3000 show-ip-node:0.2
 ### curl http://localhost:3000
+### docker ps -a
+### docker exec -it docker_name sh
 ###
 ### --- Push to Docker Hub ---
 ### docker login

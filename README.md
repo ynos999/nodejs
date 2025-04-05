@@ -1,4 +1,6 @@
-## --- Nodejs test ---
+## --- Nodejs app show Your IP ---
+###
+## --- Local Test ---
 ###
 ### npm install
 ### npm start app.js
@@ -15,13 +17,13 @@
 ### --- Push to Docker Hub ---
 ### docker login
 ### docker image ls
-### docker tag show-ip-node:0.2 username/nodejsapp:0.2
-### docker push username/nodejsapp:0.2
-### image: username/nodejsapp:0.2
+### docker tag show-ip-node:0.2 dockerhub_username/nodejsapp:0.2
+### docker push dockerhub_username/nodejsapp:0.2
+### image: dockerhub_username/nodejsapp:0.2
 ###
-### --- Git ---
+### --- Git push ---
+###
 ### git status
 ### git add .
-### git commit -m "Last update"
+### git commit -m "Last update Nodejs App"
 ### git push origin main
-###

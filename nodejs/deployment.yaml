@@ -17,4 +17,4 @@ spec:
       - name: nodejsapp
         image: ynos999/nodejsapp:0.2
         ports:
-        - containerPort: 80
+        - containerPort: 3000

@@ -16,3 +16,10 @@
 ### docker tag show-ip-node:latest username/nodejsapp:0.1
 ### docker push username/nodejsapp:0.1
 ### image: username/nodejsapp:0.1
+###
+### --- Git ---
+### git status
+### git add .
+### git commit -m "Last update Chatbot"
+### git push origin main
+###

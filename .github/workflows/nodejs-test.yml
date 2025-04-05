@@ -1,4 +1,4 @@
-name: Test Nodejs Docker Build
+name: Test Docker Build and Run
 
 on:
   push:
@@ -22,3 +22,15 @@ jobs:
         context: .
         push: false
         tags: test-image:latest
+
+    - name: Run Docker container
+      run: |
+        docker run -d -p 3000:3000 test-image:latest
+
+    - name: Wait for app to start
+      run: |
+        sleep 5  # Wait for the container to fully start
+
+    - name: Test the app with curl
+      run: |
+        curl http://localhost:3000
